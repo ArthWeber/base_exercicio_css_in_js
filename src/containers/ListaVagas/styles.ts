@@ -9,5 +9,7 @@ export const VagasContainer = styled.ul`
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
+    width: 90%;
+    margin: 32px auto 0 auto;
   }
 `

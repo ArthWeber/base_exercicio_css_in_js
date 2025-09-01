@@ -1,13 +1,15 @@
 import styled from 'styled-components'
 
-export const Form = styled.form`
+export const HeroContainer = styled.div`
   height: 360px;
   width: 100%;
   background-image: url('https://cdn.pixabay.com/photo/2018/08/10/15/45/woman-3597101_1280.jpg');
   background-size: cover;
   position: relative;
   display: flex;
+  justify-content: center;
   align-items: center;
+  color: #eee;
 
   &::before {
     position: absolute;
@@ -21,19 +23,18 @@ export const Form = styled.form`
   }
 
   @media (max-width: 768px) {
+    width: 100%;
     height: auto;
     padding: 24px 0;
   }
 `
-export const FormContainer = styled.div`
-  position: relative;
-  color: #eee;
-`
 export const HeroTitle = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
+  text-align: center;
 
   @media (max-width: 768px) {
     font-size: 32px;
+    width: 90%;
   }
 `
