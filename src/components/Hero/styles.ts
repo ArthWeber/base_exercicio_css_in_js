@@ -28,10 +28,15 @@ export const HeroContainer = styled.div`
     padding: 24px 0;
   }
 `
+export const HeroContent = styled.div`
+  position: relative;
+  z-index: 1;
+  max-width: 1024px;
+`
+
 export const HeroTitle = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
-  text-align: center;
 
   @media (max-width: 768px) {
     font-size: 32px;
